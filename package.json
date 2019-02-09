@@ -1,0 +1,38 @@
+{
+  "name": "gitmoji-commiteur",
+  "version": "1.0.0",
+  "description": "Use emojis for your commits! :zap: :sparkles:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frostney/gitmoji-commiteur.git"
+  },
+  "keywords": [
+    "emoji",
+    "gitmoji",
+    "commit"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frostney/gitmoji-commiteur/issues"
+  },
+  "homepage": "https://github.com/frostney/gitmoji-commiteur#readme",
+  "dependencies": {
+    "fuzzy": "^0.1.3",
+    "inquirer": "^6.2.2",
+    "inquirer-autocomplete-prompt": "^1.0.1",
+    "node-emoji": "^1.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.3",
+    "prettier-eslint-cli": "^4.7.1"
+  }
+}
