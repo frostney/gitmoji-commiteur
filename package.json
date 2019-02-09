@@ -27,6 +27,19 @@
     "url": "https://github.com/frostney/gitmoji-commiteur/issues"
   },
   "homepage": "https://github.com/frostney/gitmoji-commiteur#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier-eslint --write",
+      "eslint",
+      "git add"
+    ]
+  },
   "dependencies": {
     "fuzzy": "^0.1.3",
     "inquirer": "^6.2.2",
@@ -34,6 +47,8 @@
     "node-emoji": "^1.8.1"
   },
   "devDependencies": {
+    "@commitlint/cli": "^7.5.1",
+    "commitlint-config-gitmoji": "^1.0.1",
     "eslint": "^5.13.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0",
