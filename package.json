@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Use emojis for your commits! :zap: :sparkles:",
   "main": "index.js",
+  "bin": {
+    "gitmoji-commiteur": "./bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier-eslint --write \"**/*.js\"",
