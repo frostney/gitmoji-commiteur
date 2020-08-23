@@ -1589,6 +1589,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"conventional-changelog-atom@npm:^2.0.7":
+  version: 2.0.7
+  resolution: "conventional-changelog-atom@npm:2.0.7"
+  dependencies:
+    q: ^1.5.1
+  checksum: 6a7df60b8a6e814d57d394b752a9972ebb3fd7494c7a2a8ff8b282b8dc1d40c0df14b2115c9524560a6e1d27a5eb8d0ff2b52fa3a0817abf72479be1a06040dd
+  languageName: node
+  linkType: hard
+
 "conventional-changelog-writer@npm:^4.0.0":
   version: 4.0.17
   resolution: "conventional-changelog-writer@npm:4.0.17"
@@ -2973,6 +2982,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": ^9.1.2
     commitlint-config-gitmoji: ^1.0.1
+    conventional-changelog-atom: ^2.0.7
     eslint: ^7.7.0
     eslint-config-airbnb-base: ^14.2.0
     eslint-plugin-import: ^2.22.0
