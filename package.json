@@ -8,18 +8,19 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier-eslint --write \"**/*.js\"",
     "lint": "eslint \"**/*.js\"",
-    "commit": "node ./lib"
+    "commit": "node ./lib",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frostney/gitmoji-commiteur.git"
+    "url": "https://github.com/frostney/gitmoji-commiteur.git"
   },
   "keywords": [
     "emoji",
     "gitmoji",
     "commit"
   ],
-  "author": "",
+  "author": "Johannes Stein",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/frostney/gitmoji-commiteur/issues"
@@ -52,6 +53,7 @@
     "eslint-plugin-import": "^2.22.0",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
-    "prettier-eslint-cli": "^5.0.0"
+    "prettier-eslint-cli": "^5.0.0",
+    "semantic-release": "^17.1.1"
   }
 }
