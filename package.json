@@ -54,6 +54,6 @@
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
     "prettier-eslint-cli": "^5.0.0",
-    "semantic-release": "^17.1.1"
+    "semantic-release": "^19.0.3"
   }
 }
